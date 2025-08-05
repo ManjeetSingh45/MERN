@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table with TFOOT</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 60%;
+      margin: 20px auto;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #444;
+      text-align: left;
+    }
+    thead {
+      background-color: #f0f0f0;
+    }
+    tfoot {
+      background-color: #e0e0e0;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<table>
+  <thead>
+    <tr>
+      <th>Product</th>
+      <th>Quantity</th>
+      <th>Price (₹)</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Notebook</td>
+      <td>3</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <td>Pencil</td>
+      <td>5</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>Eraser</td>
+      <td>2</td>
+      <td>20</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <td colspan="2">Total</td>
+      <td>160</td>
+    </tr>
+  </tfoot>
+</table>
+
+</body>
+</html>
