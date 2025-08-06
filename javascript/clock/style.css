@@ -1,0 +1,22 @@
+*
+{
+    border:solid 2px red;
+}
+body
+{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: column;
+    background:linear-gradient();
+    height:100vh;
+
+}
+div
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:46px;
+    box-shadow:0px 4px ;
+    background-color: antiquewhite;
+    padding:20px 40px;
+}
